@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "types": ["mocha", "chai", "node"],
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["es2015", "dom"],  // Added 'dom' for broader compatibility
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true,
+    "skipLibCheck": true,      // Skipping type checks on declaration files
+    "strict": true              // Enables all strict type-checking options
+  }
+}
