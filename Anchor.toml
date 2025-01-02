@@ -22,7 +22,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-t2 = "dBBN8fLnpN1rafGY5uatPSkdto3MFU3g3a6cWcFtbLU"
+t2 = "Program_ID"
 
 [registry]
 url = "https://api.apr.dev"

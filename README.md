@@ -1,6 +1,5 @@
- Solana Staking Program
+## Solana Staking Program
 
-1. Description: 
 ## Staking and Unstaking with Fixed APY:
 Users can stake a specific SPL token and earn rewards based on a fixed APY.
 Rewards should be calculated per block or per second.
@@ -19,10 +18,9 @@ Updates to the lock duration should only apply to new users. Existing users shou
 Changes to the APY should similarly affect only new users.
 Add rewards for users to claim.
 
-2. Pre-requisites
+## Pre-requisites
 1.node: v22.7.0 2.anchor: anchor-cli 0.30.1 3.cargo: cargo 1.82.0 4.solana: solana-cli 1.18.25 4.rustc: rustc 1.82.0
 
-3. Steps:
 ## Installation:
 git clone https://github.com/pallavimatey/Staking-Solana-.git
 anchor clean
